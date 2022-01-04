@@ -7,7 +7,17 @@
     "url": "git@github.com:jgnewman/custom-syntax-highlighter",
     "type": "git"
   },
+  "scripts": {
+    "ts:gen-types": "tsc"
+  },
   "author": "John Newman <rescuecreative@gmail.com>",
+  "contributors": [
+    {
+      "name": "Ben Siebert",
+      "email": "ben@mctzock.de",
+      "url": "https://mctzock.de"
+    }
+  ],
   "keywords": [
     "custom",
     "syntax",
@@ -32,7 +42,9 @@
     "gulp-babel": "^6.1.2",
     "gulp-clean": "^0.3.2",
     "gulp-util": "^3.0.8",
+    "typescript": "^4.5.4",
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0"
-  }
+  },
+  "types": "types/index.d.ts"
 }
